@@ -43,7 +43,6 @@ filter: brightness(1.2);
 
 * {
     box-sizing: border-box;
-    cursor: pointer;
 }
 
 *::selection {
@@ -64,11 +63,16 @@ main {
     align-items: center;
 }
 
+div {
+    cursor: pointer;
+}
+
 button {
     padding: 6px;
     font-size: 20px;
     font-family: 'Special Elite';
     border: 1px solid black;
+    cursor: pointer;
 }
 
 button:hover {
